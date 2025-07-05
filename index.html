@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Developer Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Portfolio</h1>
+
+      <!-- Animated Hamburger toggle -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <nav class="nav" id="navMenu">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#footer">Footer</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container about-container">
+      <div class="about-image">
+        <img src="./Images/Pic.jpeg" alt="My Photo" />
+      </div>
+      <div class="about-content">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate Frontend Developer Fresher skilled in HTML5, CSS3, and JavaScript.
+          I enjoy crafting responsive and interactive websites with modern design.
+          Eager to learn and contribute to innovative tech teams.
+        </p>
+        <div class="about-buttons">
+          <a href="https://www.linkedin.com/in/mounish-p-a9a38926a/" target="_blank">LinkedIn</a>
+          <a href="https://github.com/Mounish-2025" target="_blank">GitHub</a>
+          <a href="./Resume/Mounish_Frontend_Resume.pdf" download>Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>Core Frontend Skills</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Styling & Design</h3>
+          <ul>
+            <li>Responsive Design</li>
+            <li>Bootstrap 5</li>
+            <li>CSS Animations & Transitions</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frameworks & Libraries</h3>
+          <ul>
+            <li>React.js</li>
+            <li>GSAP / Framer Motion</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Build Tools & Version Control</h3>
+          <ul>
+            <li>Git & GitHub</li>
+            <li>VSCode</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem-solving</li>
+            <li>Attention to detail</li>
+            <li>Communication & Teamwork</li>
+            <li>Adaptability & Quick Learner</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="./Images/cafe-delight.png" alt="cafe-delight">
+          <h3>Cafe Delight</h3>
+          <div class="project-links">
+            <a href="https://github.com/Mounish-2025/Cafe_Delight" target="_blank">GitHub</a>
+            <a href="https://mounish-2025.github.io/Cafe_Delight/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+          <img src="./Images/coffee.png" alt="Coffee">
+          <h3>Coffee Shop</h3>
+          <div class="project-links">
+            <a href="https://github.com/Mounish-2025/Coffee_Shop" target="_blank">GitHub</a>
+            <a href="https://mounish-2025.github.io/Coffee_Shop/" target="_blank">Live Demo</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer id="footer" class="footer">
+    <div class="container">
+      <p>&copy; 2025 Mounish P. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
